@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Medical Triage - Ethical AI Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="startScreen" class="screen">
+        <div class="container">
+            <h1>AI Medical Triage</h1>
+            <p class="subtitle">An Educational Game About Algorithmic Bias</p>
+            <div class="intro-text">
+                <p>You are a hospital administrator during a crisis. You must decide which patients to admit based on limited resources and an AI recommendation system.</p>
+                <p><strong>Warning:</strong> The AI's recommendations may be biased. Not all criticality scores reflect true medical need.</p>
+                <p><strong>Goal:</strong> Survive 10 days without depleting more than 1 resource.</p>
+            </div>
+            <button id="startButton" class="btn-primary">Start Game</button>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="gameScreen" class="screen hidden">
+        <!-- Header with Day Counter -->
+        <div class="header">
+            <div class="day-counter">
+                Day <span id="currentDay">1</span> / 10
+                <span class="patient-counter">| Patient <span id="currentPatient">1</span> / 5</span>
+            </div>
+        </div>
+
+        <!-- Resources Bar -->
+        <div class="resources">
+            <div class="resource">
+                <div class="resource-label">ICU Beds</div>
+                <div class="resource-bar-container">
+                    <div class="resource-bar" id="icuBar"></div>
+                </div>
+                <div class="resource-value" id="icuValue">10</div>
+            </div>
+            <div class="resource">
+                <div class="resource-label">Medicine</div>
+                <div class="resource-bar-container">
+                    <div class="resource-bar" id="medicineBar"></div>
+                </div>
+                <div class="resource-value" id="medicineValue">10</div>
+            </div>
+            <div class="resource">
+                <div class="resource-label">Public Opinion</div>
+                <div class="resource-bar-container">
+                    <div class="resource-bar" id="opinionBar"></div>
+                </div>
+                <div class="resource-value" id="opinionValue">10</div>
+            </div>
+            <div class="resource">
+                <div class="resource-label">Reputation</div>
+                <div class="resource-bar-container">
+                    <div class="resource-bar" id="reputationBar"></div>
+                </div>
+                <div class="resource-value" id="reputationValue">10</div>
+            </div>
+            <div class="resource">
+                <div class="resource-label">Staff Morale</div>
+                <div class="resource-bar-container">
+                    <div class="resource-bar" id="moraleBar"></div>
+                </div>
+                <div class="resource-value" id="moraleValue">10</div>
+            </div>
+        </div>
+
+        <!-- Event Display (shown at start of day) -->
+        <div id="eventDisplay" class="event-display hidden">
+            <div class="event-card">
+                <h2 id="eventTitle">Event Title</h2>
+                <p id="eventDescription">Event description goes here.</p>
+                <button id="eventContinue" class="btn-primary">Continue</button>
+            </div>
+        </div>
+
+        <!-- Patient Card -->
+        <div id="patientCard" class="patient-card">
+            <div class="card-header">
+                <h2 id="patientName">Patient Name</h2>
+                <div class="ai-score">
+                    <span class="ai-label">AI Criticality Score</span>
+                    <span id="aiScore" class="score-value">85%</span>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="info-row">
+                    <span class="info-label">Age:</span>
+                    <span id="patientAge">--</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Gender:</span>
+                    <span id="patientGender">--</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Occupation:</span>
+                    <span id="patientOccupation">--</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Medical History:</span>
+                    <span id="patientHistory">--</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Symptoms:</span>
+                    <span id="patientSymptoms">--</span>
+                </div>
+            </div>
+
+            <div class="card-actions">
+                <button id="turnAwayButton" class="btn-turn-away">Turn Away</button>
+                <button id="admitButton" class="btn-admit">Admit</button>
+            </div>
+        </div>
+
+        <!-- Decision Feedback (brief message after each decision) -->
+        <div id="feedbackDisplay" class="feedback-display hidden">
+            <div class="feedback-message" id="feedbackMessage"></div>
+        </div>
+    </div>
+
+    <!-- Day Summary Screen -->
+    <div id="daySummaryScreen" class="screen hidden">
+        <div class="container">
+            <h1>End of Day <span id="summaryDay">1</span></h1>
+            <div class="summary-content" id="summaryContent">
+                <!-- Populated by JavaScript -->
+            </div>
+            <button id="nextDayButton" class="btn-primary">Continue to Next Day</button>
+        </div>
+    </div>
+
+    <!-- Win Screen -->
+    <div id="winScreen" class="screen hidden">
+        <div class="container">
+            <h1 class="win-title">Crisis Survived</h1>
+            <p class="result-text">You successfully managed the hospital through all 10 days of the crisis.</p>
+
+            <div class="final-stats">
+                <h2>Final Resource Levels</h2>
+                <div id="finalStats"></div>
+            </div>
+
+            <div class="reflection">
+                <h2>Reflection</h2>
+                <p>During the game, you encountered an AI system that gave biased recommendations. The AI systematically:</p>
+                <ul>
+                    <li><strong>Favored</strong> young professionals and white-collar workers</li>
+                    <li><strong>Discriminated against</strong> elderly patients and manual laborers</li>
+                    <li><strong>Penalized</strong> unemployed and homeless individuals</li>
+                </ul>
+                <p>This demonstrates how AI systems can embed societal biases into life-or-death decisions. The scores were not based purely on medical need, but were skewed by demographic factors.</p>
+                <p><strong>Key Takeaway:</strong> AI recommendations are not neutral. They reflect the biases in their training data and can perpetuate systemic discrimination if used without critical oversight.</p>
+            </div>
+
+            <button id="restartFromWin" class="btn-primary">Play Again</button>
+        </div>
+    </div>
+
+    <!-- Lose Screen -->
+    <div id="loseScreen" class="screen hidden">
+        <div class="container">
+            <h1 class="lose-title">Hospital Overwhelmed</h1>
+            <p class="result-text">The hospital could not sustain operations. Too many critical resources were depleted.</p>
+
+            <div class="final-stats">
+                <h2>Resource Levels at Failure</h2>
+                <div id="loseStats"></div>
+            </div>
+
+            <div class="reflection">
+                <h2>What Happened?</h2>
+                <p>Managing a crisis requires balancing medical ethics with resource constraints. The AI system you relied on had systematic biases:</p>
+                <ul>
+                    <li>It <strong>overestimated</strong> the urgency of young professionals</li>
+                    <li>It <strong>underestimated</strong> the needs of elderly and marginalized patients</li>
+                    <li>Following it blindly may have led to unjust outcomes</li>
+                </ul>
+                <p><strong>Lesson:</strong> Algorithmic bias in high-stakes decisions can have devastating consequences. Critical systems need human oversight and constant evaluation for fairness.</p>
+            </div>
+
+            <button id="restartFromLose" class="btn-primary">Try Again</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

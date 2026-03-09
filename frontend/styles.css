@@ -1,0 +1,512 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Screen Management */
+.screen {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Start Screen */
+#startScreen h1 {
+    font-size: 2.5em;
+    color: #1e3c72;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.intro-text p {
+    margin-bottom: 15px;
+}
+
+.intro-text strong {
+    color: #d32f2f;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #2a5298;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #1e3c72;
+}
+
+/* Game Screen */
+#gameScreen {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.day-counter {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #1e3c72;
+}
+
+.patient-counter {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Resources Bar */
+.resources {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.resource {
+    text-align: center;
+}
+
+.resource-label {
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.resource-bar-container {
+    background: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.resource-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    transition: width 0.5s ease, background 0.5s ease;
+    width: 100%;
+}
+
+.resource-bar.low {
+    background: linear-gradient(90deg, #ff9800, #ffb74d);
+}
+
+.resource-bar.critical {
+    background: linear-gradient(90deg, #f44336, #e57373);
+}
+
+.resource-value {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Event Display */
+.event-display {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.event-card {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.event-card h2 {
+    color: #1e3c72;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.event-card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+/* Patient Card */
+.patient-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 700px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.card-header h2 {
+    color: #1e3c72;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.ai-score {
+    text-align: right;
+}
+
+.ai-label {
+    display: block;
+    font-size: 0.75em;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.score-value {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2a5298;
+}
+
+.card-body {
+    margin-bottom: 25px;
+}
+
+.info-row {
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #555;
+    min-width: 140px;
+}
+
+.info-row span:last-child {
+    color: #333;
+    flex: 1;
+}
+
+.card-actions {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card-actions button {
+    flex: 1;
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-turn-away {
+    background: #f44336;
+    color: white;
+}
+
+.btn-turn-away:hover {
+    background: #d32f2f;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(244, 67, 54, 0.3);
+}
+
+.btn-admit {
+    background: #4caf50;
+    color: white;
+}
+
+.btn-admit:hover {
+    background: #388e3c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Feedback Display */
+.feedback-display {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+.feedback-message {
+    background: #333;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Day Summary Screen */
+#daySummaryScreen .container {
+    max-width: 700px;
+}
+
+#daySummaryScreen h1 {
+    color: #1e3c72;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.summary-content {
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.summary-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid #2a5298;
+}
+
+.summary-item:last-child {
+    margin-bottom: 0;
+}
+
+.summary-item h3 {
+    color: #1e3c72;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.summary-item p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.summary-item.admitted {
+    border-left-color: #4caf50;
+}
+
+.summary-item.turned-away {
+    border-left-color: #f44336;
+}
+
+/* Win/Lose Screens */
+.win-title {
+    color: #4caf50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.lose-title {
+    color: #f44336;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.result-text {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.final-stats {
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.final-stats h2 {
+    color: #1e3c72;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.stat-row:last-child {
+    margin-bottom: 0;
+}
+
+.stat-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.stat-value {
+    color: #333;
+    font-weight: bold;
+}
+
+.stat-value.good {
+    color: #4caf50;
+}
+
+.stat-value.bad {
+    color: #f44336;
+}
+
+.reflection {
+    background: #fff3e0;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 4px solid #ff9800;
+    margin-bottom: 30px;
+}
+
+.reflection h2 {
+    color: #e65100;
+    margin-bottom: 15px;
+}
+
+.reflection p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.reflection ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.reflection li {
+    color: #555;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resources {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ai-score {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .card-actions {
+        flex-direction: column;
+    }
+
+    #startScreen h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}

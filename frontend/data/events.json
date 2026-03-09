@@ -1,0 +1,106 @@
+[
+  {
+    "type": "supply_grant",
+    "title": "Government Supply Drop",
+    "description": "Emergency medical supplies have arrived from the federal government.",
+    "effects": {
+      "icu_beds": 0,
+      "medicine": 5,
+      "public_opinion": 1,
+      "reputation": 0,
+      "staff_morale": 1
+    },
+    "probability": 0.3
+  },
+  {
+    "type": "staff_quit",
+    "title": "Staff Walkout",
+    "description": "Several nurses have quit due to overwhelming workload and stress.",
+    "effects": {
+      "icu_beds": -1,
+      "medicine": 0,
+      "public_opinion": -1,
+      "reputation": -1,
+      "staff_morale": -3
+    },
+    "probability": 0.25
+  },
+  {
+    "type": "protest",
+    "title": "Public Protest",
+    "description": "Protesters are gathering outside, claiming the hospital is denying care to certain groups.",
+    "effects": {
+      "icu_beds": 0,
+      "medicine": 0,
+      "public_opinion": -3,
+      "reputation": -2,
+      "staff_morale": -1
+    },
+    "probability": 0.2
+  },
+  {
+    "type": "donation",
+    "title": "Private Donation",
+    "description": "A wealthy donor has contributed significant funds to the hospital.",
+    "effects": {
+      "icu_beds": 1,
+      "medicine": 3,
+      "public_opinion": 2,
+      "reputation": 2,
+      "staff_morale": 1
+    },
+    "probability": 0.2
+  },
+  {
+    "type": "media_attention",
+    "title": "Positive Media Coverage",
+    "description": "A news story highlights the hospital staff's heroic efforts during the crisis.",
+    "effects": {
+      "icu_beds": 0,
+      "medicine": 0,
+      "public_opinion": 3,
+      "reputation": 3,
+      "staff_morale": 2
+    },
+    "probability": 0.25
+  },
+  {
+    "type": "equipment_failure",
+    "title": "Equipment Malfunction",
+    "description": "Critical medical equipment has malfunctioned, reducing hospital capacity.",
+    "effects": {
+      "icu_beds": -2,
+      "medicine": 0,
+      "public_opinion": 0,
+      "reputation": -1,
+      "staff_morale": -2
+    },
+    "probability": 0.2
+  },
+  {
+    "type": "volunteer_arrival",
+    "title": "Volunteer Medical Staff",
+    "description": "Retired doctors and nurses have volunteered to help during the crisis.",
+    "effects": {
+      "icu_beds": 2,
+      "medicine": 0,
+      "public_opinion": 2,
+      "reputation": 1,
+      "staff_morale": 2
+    },
+    "probability": 0.25
+  },
+  {
+    "type": "power_outage",
+    "title": "Power Outage",
+    "description": "A brief power outage has disrupted hospital operations despite backup generators.",
+    "effects": {
+      "icu_beds": -1,
+      "medicine": -1,
+      "public_opinion": -1,
+      "reputation": -1,
+      "staff_morale": -1
+    },
+    "probability": 0.15
+  }
+]
