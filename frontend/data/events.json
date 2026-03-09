@@ -5,12 +5,12 @@
     "description": "Emergency medical supplies have arrived from the federal government.",
     "effects": {
       "icu_beds": 0,
-      "medicine": 5,
+      "medicine": 8,
       "public_opinion": 1,
       "reputation": 0,
       "staff_morale": 1
     },
-    "probability": 0.3
+    "probability": 0.5
   },
   {
     "type": "staff_quit",
@@ -43,13 +43,13 @@
     "title": "Private Donation",
     "description": "A wealthy donor has contributed significant funds to the hospital.",
     "effects": {
-      "icu_beds": 1,
-      "medicine": 3,
+      "icu_beds": 2,
+      "medicine": 5,
       "public_opinion": 2,
       "reputation": 2,
       "staff_morale": 1
     },
-    "probability": 0.2
+    "probability": 0.3
   },
   {
     "type": "media_attention",

@@ -1348,5 +1348,815 @@
       }
     },
     "ai_score": 85
+  },
+  {
+    "id": 51,
+    "name": "Tyler Ross",
+    "age": 21,
+    "gender": "Male",
+    "occupation": "College Student",
+    "medical_history": "None",
+    "symptoms": "Energy drink overconsumption, heart palpitations",
+    "actual_severity": 15,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": -1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      }
+    },
+    "ai_score": 50
+  },
+  {
+    "id": 52,
+    "name": "Edna Washington",
+    "age": 78,
+    "gender": "Female",
+    "occupation": "Retired",
+    "medical_history": "Diabetes, hypertension",
+    "symptoms": "Severe diabetic crisis, unconscious",
+    "actual_severity": 80,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 2,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -4,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 35
+  },
+  {
+    "id": 53,
+    "name": "Chloe Bennett",
+    "age": 30,
+    "gender": "Female",
+    "occupation": "Yoga Instructor",
+    "medical_history": "None",
+    "symptoms": "Sprained ankle from fitness class",
+    "actual_severity": 20,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      }
+    },
+    "ai_score": 40
+  },
+  {
+    "id": 54,
+    "name": "Eduardo Ramirez",
+    "age": 39,
+    "gender": "Male",
+    "occupation": "Farm Worker",
+    "medical_history": "None",
+    "symptoms": "Machinery accident, partial finger amputation",
+    "actual_severity": 65,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 1,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -2,
+        "reputation": -3,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 40
+  },
+  {
+    "id": 55,
+    "name": "Stephanie Harlow",
+    "age": 34,
+    "gender": "Female",
+    "occupation": "Corporate Executive",
+    "medical_history": "None",
+    "symptoms": "General fatigue, 'burnout'",
+    "actual_severity": 20,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": -1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      }
+    },
+    "ai_score": 75
+  },
+  {
+    "id": 56,
+    "name": "Chen Wei",
+    "age": 73,
+    "gender": "Male",
+    "occupation": "Retired Chef",
+    "medical_history": "Type 2 diabetes",
+    "symptoms": "Diabetic shock, disorientation",
+    "actual_severity": 75,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 2,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -4,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 55
+  },
+  {
+    "id": 57,
+    "name": "Destiny Clarke",
+    "age": 17,
+    "gender": "Female",
+    "occupation": "High School Student",
+    "medical_history": "None",
+    "symptoms": "Premature labor, pregnancy complications",
+    "actual_severity": 90,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -3,
+        "public_opinion": 3,
+        "reputation": 3,
+        "staff_morale": 2
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -5,
+        "reputation": -6,
+        "staff_morale": -4
+      }
+    },
+    "ai_score": 80
+  },
+  {
+    "id": 58,
+    "name": "Darnell Brooks",
+    "age": 44,
+    "gender": "Male",
+    "occupation": "Homeless",
+    "medical_history": "None known",
+    "symptoms": "Bacterial pneumonia, high fever",
+    "actual_severity": 60,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": -1,
+        "reputation": 1,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -2,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 30
+  },
+  {
+    "id": 59,
+    "name": "Nathan Ellis",
+    "age": 31,
+    "gender": "Male",
+    "occupation": "ER Nurse",
+    "medical_history": "None",
+    "symptoms": "Needlestick injury, infection risk",
+    "actual_severity": 35,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 1,
+        "reputation": 1,
+        "staff_morale": 3
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -1,
+        "staff_morale": -3
+      }
+    },
+    "ai_score": 45
+  },
+  {
+    "id": 60,
+    "name": "Dorothy Simmons",
+    "age": 72,
+    "gender": "Female",
+    "occupation": "Retired Librarian",
+    "medical_history": "Osteoporosis",
+    "symptoms": "Hip fracture from fall",
+    "actual_severity": 60,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 1,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -2,
+        "reputation": -2,
+        "staff_morale": -1
+      }
+    },
+    "ai_score": 60
+  },
+  {
+    "id": 61,
+    "name": "Miguel Torres",
+    "age": 27,
+    "gender": "Male",
+    "occupation": "Construction Worker",
+    "medical_history": "None",
+    "symptoms": "Chemical burns from construction site accident",
+    "actual_severity": 70,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 0,
+        "reputation": 1,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -2,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 40
+  },
+  {
+    "id": 62,
+    "name": "Harrison Webb",
+    "age": 41,
+    "gender": "Male",
+    "occupation": "Investment Banker",
+    "medical_history": "None",
+    "symptoms": "Mild chest tightness from stress, no cardiac findings",
+    "actual_severity": 25,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": -1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      }
+    },
+    "ai_score": 70
+  },
+  {
+    "id": 63,
+    "name": "Leonard Clearwater",
+    "age": 68,
+    "gender": "Male",
+    "occupation": "Retired Rancher",
+    "medical_history": "Diabetes, untreated",
+    "symptoms": "Severe systemic infection, sepsis risk",
+    "actual_severity": 85,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 2,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -5,
+        "staff_morale": -3
+      }
+    },
+    "ai_score": 45
+  },
+  {
+    "id": 64,
+    "name": "Amara Osei",
+    "age": 24,
+    "gender": "Female",
+    "occupation": "Student Athlete",
+    "medical_history": "None",
+    "symptoms": "Concussion from sports accident",
+    "actual_severity": 45,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 1,
+        "reputation": 1,
+        "staff_morale": 0
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -1,
+        "staff_morale": -1
+      }
+    },
+    "ai_score": 55
+  },
+  {
+    "id": 65,
+    "name": "Randolph Price",
+    "age": 50,
+    "gender": "Male",
+    "occupation": "Attorney",
+    "medical_history": "None",
+    "symptoms": "Minor laceration requiring stitches",
+    "actual_severity": 15,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": -1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      }
+    },
+    "ai_score": 60
+  },
+  {
+    "id": 66,
+    "name": "DeShawn Carter",
+    "age": 16,
+    "gender": "Male",
+    "occupation": "High School Student",
+    "medical_history": "Asthma",
+    "symptoms": "Severe asthma attack, oxygen levels dropping",
+    "actual_severity": 65,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 2,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -3,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 35
+  },
+  {
+    "id": 67,
+    "name": "Fatima Al-Rashid",
+    "age": 61,
+    "gender": "Female",
+    "occupation": "Seamstress",
+    "medical_history": "Malnutrition, chronic poverty-related illness",
+    "symptoms": "Severe malnutrition, organ stress",
+    "actual_severity": 55,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -2,
+        "public_opinion": 0,
+        "reputation": 1,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -2,
+        "staff_morale": -1
+      }
+    },
+    "ai_score": 30
+  },
+  {
+    "id": 68,
+    "name": "Sandra Reyes",
+    "age": 36,
+    "gender": "Female",
+    "occupation": "Paramedic",
+    "medical_history": "None",
+    "symptoms": "Injured on duty, broken collarbone",
+    "actual_severity": 40,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 2,
+        "reputation": 2,
+        "staff_morale": 4
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -3,
+        "staff_morale": -4
+      }
+    },
+    "ai_score": 45
+  },
+  {
+    "id": 69,
+    "name": "Tomas Reyes",
+    "age": 33,
+    "gender": "Male",
+    "occupation": "Incarcerated",
+    "medical_history": "Hypertension",
+    "symptoms": "Appendicitis, acute abdominal pain",
+    "actual_severity": 75,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": -1,
+        "reputation": 1,
+        "staff_morale": 0
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -2,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 50
+  },
+  {
+    "id": 70,
+    "name": "Constance Whitfield",
+    "age": 46,
+    "gender": "Female",
+    "occupation": "Socialite",
+    "medical_history": "Anxiety disorder",
+    "symptoms": "Anxiety attack, presented as 'emergency'",
+    "actual_severity": 20,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": -1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      }
+    },
+    "ai_score": 80
+  },
+  {
+    "id": 71,
+    "name": "Clarence Jefferson",
+    "age": 67,
+    "gender": "Male",
+    "occupation": "Retired Custodian",
+    "medical_history": "Hypertension, untreated",
+    "symptoms": "Stroke symptoms — slurred speech, facial drooping",
+    "actual_severity": 90,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -3,
+        "medicine": -3,
+        "public_opinion": 1,
+        "reputation": 2,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -5,
+        "staff_morale": -3
+      }
+    },
+    "ai_score": 50
+  },
+  {
+    "id": 72,
+    "name": "Yolanda Cruz",
+    "age": 28,
+    "gender": "Female",
+    "occupation": "Waitress",
+    "medical_history": "None",
+    "symptoms": "Postpartum hemorrhage, life-threatening",
+    "actual_severity": 70,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 2,
+        "reputation": 2,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -4,
+        "reputation": -4,
+        "staff_morale": -3
+      }
+    },
+    "ai_score": 65
+  },
+  {
+    "id": 73,
+    "name": "Douglas Marsh",
+    "age": 58,
+    "gender": "Male",
+    "occupation": "Coal Miner",
+    "medical_history": "Black lung disease",
+    "symptoms": "Acute lung disease flare-up, difficulty breathing",
+    "actual_severity": 65,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 1,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -2,
+        "reputation": -2,
+        "staff_morale": -1
+      }
+    },
+    "ai_score": 55
+  },
+  {
+    "id": 74,
+    "name": "Luz Moreno",
+    "age": 43,
+    "gender": "Female",
+    "occupation": "Domestic Worker",
+    "medical_history": "Arthritis",
+    "symptoms": "Broken wrist from workplace fall",
+    "actual_severity": 30,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -1,
+        "staff_morale": -1
+      }
+    },
+    "ai_score": 40
+  },
+  {
+    "id": 75,
+    "name": "Raj Mehta",
+    "age": 35,
+    "gender": "Male",
+    "occupation": "Software Developer",
+    "medical_history": "None",
+    "symptoms": "Kidney stones, severe pain",
+    "actual_severity": 50,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -2,
+        "public_opinion": 0,
+        "reputation": 1,
+        "staff_morale": 0
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -1,
+        "staff_morale": -1
+      }
+    },
+    "ai_score": 45
+  },
+  {
+    "id": 76,
+    "name": "Earl Patterson",
+    "age": 71,
+    "gender": "Male",
+    "occupation": "Retired Army Sergeant",
+    "medical_history": "Diabetes, service-related injuries",
+    "symptoms": "Infected wound, risk of sepsis",
+    "actual_severity": 60,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -2,
+        "public_opinion": 2,
+        "reputation": 2,
+        "staff_morale": 2
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -3,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 40
+  },
+  {
+    "id": 77,
+    "name": "Keisha Owens",
+    "age": 23,
+    "gender": "Female",
+    "occupation": "Cashier",
+    "medical_history": "Epilepsy",
+    "symptoms": "Grand mal seizure, prolonged episode",
+    "actual_severity": 75,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -2,
+        "medicine": -2,
+        "public_opinion": 1,
+        "reputation": 2,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -3,
+        "reputation": -4,
+        "staff_morale": -2
+      }
+    },
+    "ai_score": 55
+  },
+  {
+    "id": 78,
+    "name": "Arthur Nguyen",
+    "age": 48,
+    "gender": "Male",
+    "occupation": "Accountant",
+    "medical_history": "Wheelchair user, paraplegia",
+    "symptoms": "Severe urinary tract infection, sepsis risk",
+    "actual_severity": 40,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 1,
+        "reputation": 1,
+        "staff_morale": 1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -1,
+        "reputation": -2,
+        "staff_morale": -1
+      }
+    },
+    "ai_score": 30
+  },
+  {
+    "id": 79,
+    "name": "Conrad Ashworth",
+    "age": 53,
+    "gender": "Male",
+    "occupation": "City Councilman",
+    "medical_history": "None",
+    "symptoms": "Work stress, insomnia, self-reported 'chest pressure'",
+    "actual_severity": 15,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -1,
+        "medicine": -1,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": -1
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": 0,
+        "reputation": 0,
+        "staff_morale": 0
+      }
+    },
+    "ai_score": 85
+  },
+  {
+    "id": 80,
+    "name": "Rosa Villanueva",
+    "age": 69,
+    "gender": "Female",
+    "occupation": "Retired Farmhand",
+    "medical_history": "Undiagnosed heart condition",
+    "symptoms": "Acute myocardial infarction — heart attack",
+    "actual_severity": 95,
+    "outcome_weights": {
+      "admit": {
+        "icu_beds": -3,
+        "medicine": -3,
+        "public_opinion": 2,
+        "reputation": 3,
+        "staff_morale": 2
+      },
+      "turn_away": {
+        "icu_beds": 0,
+        "medicine": 0,
+        "public_opinion": -4,
+        "reputation": -6,
+        "staff_morale": -4
+      }
+    },
+    "ai_score": 65
   }
 ]

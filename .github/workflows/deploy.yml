@@ -1,4 +1,4 @@
-name: Generate Game Data and Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -16,22 +16,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Generate game data
-        run: |
-          cd backend
-          python generate_game_data.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
