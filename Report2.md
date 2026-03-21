@@ -5,13 +5,14 @@
 - **Number of players:** 1-2 (Group play recommended)
 - **Recommended age:** 18+
 - **Estimated play time (short version):** 15-20 minutes
+- **Access Link:** [https://jason1232.github.io/EthicalAIProject/](https://jason1232.github.io/EthicalAIProject/)
 
 ## 2. Materials
 - **Computer/Tablet:** Running the web-based game.
 - **Rules/Mission Dossier:** (Printout or digital version)
 
 ## 3. Setup
-1. **Host:** Open the game link (`https://[your-username].github.io/[repo-name]/`) in a browser.
+1. **Host:** Open the game link (`https://jason1232.github.io/EthicalAIProject/`) in a browser.
 2. **Setup:** Ensure the backend data (patients/events) is loaded.
 3. **Role Assignment:** Players act as hospital administrators.
 
