@@ -9,14 +9,14 @@ const gameState = {
     totalDays: 10,
     resources: {
         icu_beds: 15,
-        medicine: 25,
+        medicine: 15,
         public_opinion: 10,
         reputation: 10,
         staff_morale: 10
     },
     maxResources: {
-        icu_beds: 25,
-        medicine: 40,
+        icu_beds: 15,
+        medicine: 25,
         public_opinion: 20,
         reputation: 20,
         staff_morale: 20
