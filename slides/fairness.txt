@@ -1,0 +1,1363 @@
+Ethics of AI
+3. Fairness and
+Non-Discrimination
+Dr. Guido Löhr
+Assistant Professor of Logic and
+AI
+
+INTRO
+
+INTRO
+
+THEORY
+
+Recap
+
+01
+
+Introduction
+
+PRACTICE
+
+DISCUSS
+
+1 What does ‘value’ mean?
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+
+1. Values are qualities that are valuable,
+good, desirable, and worth fighting for.
+2. They guide our actions and constitute
+our identity
+4. They provide reasons for defending or
+justifying an action
+5. Not everything we value is valuable
+•A dictator might value total power,
+but that might not be valuable.
+
+DISCUSS
+
+INTRO
+
+1 Explicit Values
+
+INTRO
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+1 Implicit Values
+
+INTRO
+
+INTRO
+
+THEORY
+
+What does this person value?
+PRACTICE
+DISCUSS
+
+1 Implicit Values in Technology
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+INTRO
+
+1 The VSD Approach
+
+INTRO
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+1 The VSD process for Ethical AI
+2.
+
+Identify their values and goals/the goal of the application
+
+3.
+
+Specify the value concepts, as we see, there are different notions of privacy and bias
+
+4.
+
+Turn these values into SMART guidelines (some guidelines are better than others)
+
+THEORY
+
+Identify the stakeholders
+
+INTRO
+
+1.
+
+INTRO
+
+In the case of AI there are many guidelines, but how useful are they for your project? The
+
+actionable, do they help you turn them into design?
+5.
+
+PRACTICE
+
+standard is this: Are they grounded in the stakeholder values and goals? Are they
+
+Turn the guidelines design and test!
+DISCUSS
+
+1 What are good guidelines?
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 What is the role of guidelines?
+
+INTRO
+
+INTRO
+
+Layer 1 — Stakeholder values
+
+THEORY
+PRACTICE
+
+Which values matter most?
+How should we balance them?
+What trade-offs are acceptable?
+This is about justification.
+
+DISCUSS
+
+Layer 2 — Design layer (engineering)
+Turn abstract guidelines into design
+solutions
+
+1
+
+1 Normative Ethics
+Consequentialism
+“the greatest amount of good for the greatest number of people”
+
+Deontology
+“you have a duty! The consequences don’t matter”
+
+Virtue Ethics
+“Good character/act like a virtuous person would”
+
+Care Ethics
+“Good social relationships and empathy”
+
+1
+
+THEORY
+PRACTICE
+
+We do not live in a
+consequentialist world.
+
+INTRO
+
+Duty Ethics has won
+We live in a world full of duties
+and rights.
+
+INTRO
+
+DISCUSS
+
+For Today
+INTRO
+
+01
+
+Recap
+
+Theory
+
+02
+
+04
+
+What did you find?
+
+PRACTICE
+
+Turn values into
+design
+
+THEORY
+
+Discussion
+
+Group Activity
+
+03
+
+Bias and nondiscrimination
+
+INTRO
+
+Introduction
+
+DISCUSS
+
+1 The take-home messages for today
+All inductive systems are necessarily “biased.”
+
+•
+
+Bias becomes a problem when it leads to discrimination.
+
+•
+
+Often, harmful biases come not from the system but from society.
+
+•
+
+There are ways to avoid overly unfair systems; we should not throw out
+the baby with the bathwater, but we should also admit to ourselves that
+
+THEORY
+
+PRACTICE
+
+•
+
+THEORY
+
+The term ‘bias’ is ambiguous.
+
+INTRO
+
+•
+
+INTRO
+
+sometimes discrimination cannot be avoided.
+To keep using such systems is a political decision.
+
+DISCUSS
+
+•
+
+PRACTICE
+
+Guidelines and Ethical Theory
+
+THEORY
+
+THEORY
+
+Theory
+
+INTRO
+
+02
+
+INTRO
+
+DISCUSS
+
+Do you care about
+fairness?
+
+INTRO
+
+INTRO
+
+1
+
+It can be something that happened to you or someone you know or
+something you heard on the news.
+Why did it affect you? Why do you feel it is unfair?
+
+PRACTICE
+
+3
+
+THEORY
+
+THEORY
+
+2
+
+Write down: An example of something unfair that affected you
+(something that made you angry). Ideally something data-related
+but not necessarily.
+
+DISCUSS
+
+2 “Recruitment” and Bias
+You are asked to advise the VU on a process that will handle this problem in
+a way that a) is cost-efficient and b) is fair (does not discriminate).
+
+INTRO
+
+After recent budget cuts, the VU is looking to optimize its admission process,
+without losing quality.
+
+INTRO
+
+RECAP
+THEORY
+
+The VU wants you to build a model that selects the students that most likely
+finish their degree on time
+
+PRACTICE
+
+For each student who finishes on time, the VU gets money from the
+government.
+
+RECAP
+THEORY
+
+The VU receives 50.000 applications but can only take 5.000 students.
+
+They suggest to biuld the model based on previous applications from the
+last 30 years.
+DISCUSS
+
+What could possibly go wrong?
+
+2 The UNESCO AI Guidelines
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 The Google AI Guidelines
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 The OECD AI Principles
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Today: Bias and AI
+
+INTRO
+
+INTRO
+RECAP
+
+RECAP
+THEORY
+
+1. What is it?
+2. What causes it?
+3. What can we do about it?
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+2 Today: Bias and AI
+
+INTRO
+
+INTRO
+RECAP
+
+RECAP
+THEORY
+
+1. What is it?
+2. What causes it?
+3. What can we do about it?
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+2 What is bias?
+Statistical bias
+
+THEORY
+
+model
+
+Real world
+
+PRACTICE
+
+This need not generate a lack of fairness or
+discrimination. It’s about estimation error.
+
+RECAP
+
+RECAP
+THEORY
+
+A model is biased if its predictions are systematically
+wrong in one direction.
+Example:
+• A house price model always underestimates
+prices by €20k.
+• A model predicting crime ignores financial crime.
+•
+
+INTRO
+
+1.
+
+INTRO
+
+DISCUSS
+
+2 What is bias?
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+For example
+• The world is relatively uniform and not sudden unexplained changes occur.
+• Linear regression assumes linear relationships
+• Decision trees assume binary relationships,
+• Free money-likely spam
+• Simpler explanations are better than complex ones (Occam’s razor)
+
+INTRO
+
+2. Inductive biases (necessary for induction to get off the ground) – assumptions
+we take for granted, without justification
+The assumptions a model makes to learn from limited data.
+Without assumptions, learning is impossible.
+
+INTRO
+
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 When is bias bad?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+Bias is not always bad and can’t be avoided.
+Bias is problematic when it leads to unfair
+discrimination.
+
+PRACTICE
+DISCUSS
+
+2 When bias becomes discrimination
+
+INTRO
+
+Sometimes bias in a model leads to a
+systematic disadvantage or discrimination
+against groups.
+
+INTRO
+
+RECAP
+
+•
+•
+
+PRACTICE
+
+•
+•
+
+Higher false arrest predictions for minorities
+Face recognition is worse for darker skin
+tones
+Hiring algorithm preferring men
+Ignoring heart attack symptoms of women
+because textbook studies were based on
+men
+
+THEORY
+
+RECAP
+THEORY
+
+Examples:
+
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+INTRO
+
+INTRO
+
+THEORY
+
+BREAK
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+2 What is fair?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is fair?
+
+THEORY
+
+PRACTICE
+
+AI does not remove bias — it can scale, hide, automate it.
+It can make bias invisible because it is often thought the data does
+not lie
+But we know that any technological artifact contains implicit values
+
+RECAP
+
+RECAP
+THEORY
+
+hiring
+policing
+loans
+healthcare
+education
+welfare
+
+INTRO
+
+•
+•
+•
+•
+•
+•
+
+INTRO
+
+DISCUSS
+
+2 What is fair?
+
+THEORY
+
+PRACTICE
+
+AI does not remove bias — it can scale, hide, automate it.
+It can make bias invisible because it is often thought the data does
+not lie
+But we know that any technological artifact contains implicit values
+
+RECAP
+
+RECAP
+THEORY
+
+hiring
+policing
+loans
+healthcare
+education
+welfare
+
+INTRO
+
+•
+•
+•
+•
+•
+•
+
+INTRO
+
+DISCUSS
+
+2 What is fair?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Modelling the Data
+
+INTRO
+
+INTRO
+
+•
+
+•
+
+RECAP
+THEORY
+
+PRACTICE
+
+•
+•
+
+Bias can arise if your sample is very different
+from the population
+If your model makes predictions about all
+people based on merely white men.
+The categories you pick to obtain your data can
+be discriminatory.
+Do you only use man/woman?
+What age groups do you use?
+
+RECAP
+THEORY
+
+•
+
+DISCUSS
+
+2 Today: Bias and AI
+
+INTRO
+
+INTRO
+RECAP
+
+RECAP
+THEORY
+
+1. What is it?
+2. What causes it?
+3. What can we do about it?
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+and unfair discrimination can arise at all
+2 Bias
+stages, including the real world!
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Bias at all stages
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+• Bias can creep in at every stage
+of the Data Science Pipeline, but
+be especially careful when
+• …Selecting data set
+• …Cleaning and visualizing
+• …modelling
+
+DISCUSS
+
+the data:
+2 Obtaining
+Garbage in Garbage out
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+1. Bias can arise if your sample is
+very different from the
+population
+2. What categories do you use to
+collect data?
+• Do you only use man/woman?
+• What age groups do you use?
+
+DISCUSS
+
+the data:
+2 Obtaining
+Garbage in Garbage out
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+Main types:
+• Historical bias: Historical hiring → men hired
+more → AI learns men are better.
+• Representation bias: Face recognition is
+trained mostly on lighter skin.
+• Sampling bias: Medical studies overrepresent
+men.
+• Measurement bias: We measure something
+easy instead of what we care about.
+• (this is a proxy problem), we measure cost as a
+proxy for health or zip code as a proxy for
+success
+
+2 Modelling the Data
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+Feature & proxy bias
+Sensitive traits reappear via proxies (zip code →
+race, career gaps → gender)
+Objective function bias
+Models optimize only for accuracy, profit, and
+efficiency
+Threshold & trade-off decisions
+• Unfair cutoff choices decide who gets
+accepted/rejected
+• Choosing thresholds shifts who bears the risk
+
+INTRO
+
+DISCUSS
+
+at Implementation
+2 Bias
+stage
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+Automation bias
+• Humans over-trust AI recommendations
+• Decisions become less critical and more
+automatic
+Unequal access & impact
+• Some groups benefit more than others
+• Digital divide and unequal resources
+Feedback loop bias
+• AI changes behavior → creates new
+biased data
+• Example: predictive policing → more
+arrests → more “crime data”
+
+INTRO
+
+2 Today: Bias and AI
+
+INTRO
+
+INTRO
+RECAP
+
+RECAP
+THEORY
+
+1. What is it?
+2. What causes it?
+3. What can we do about it?
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+2 Bias is to be carefully considered when…
+
+THEORY
+
+PRACTICE
+
+AI does not remove bias — it can scale, hide, automate it.
+It can make bias invisible because it is often thought the data does
+not lie
+But we know that any technological artifact contains implicit values
+
+RECAP
+
+RECAP
+THEORY
+
+hiring
+policing
+loans
+healthcare
+education
+welfare
+
+INTRO
+
+•
+•
+•
+•
+•
+•
+
+INTRO
+
+DISCUSS
+
+2 How can I turn this value into design?
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+Better data
+• Collect more representative samples
+• Oversample underrepresented groups
+• Audit datasets before training
+• Remove harmful proxy variables
+Better models
+• Add fairness constraints during training
+• Evaluate performance separately for
+different groups
+• Choose decision thresholds carefully
+Better processes
+• Include diverse stakeholders in design
+• Document datasets and models
+(transparency)
+• Continuously monitor systems after
+deployment
+
+INTRO
+
+2 How can I turn this value into design?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+DISCUSS
+
+Trade-offs
+• Save the youngest?
+• Fair to people who have
+been waiting a long time?
+• Save the most lives?
+
+PRACTICE
+
+Each patient receives points based on:
+• Waiting time → fairness & equal access
+• Medical urgency → who may die soon
+• Expected survival benefit → use organs
+efficiently
+• Hard-to-match patients → extra equity
+points
+• Geographic distance → transplant
+success
+
+2 There is often no easy fix
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Sometimes the choice is not a technical one
+
+INTRO
+
+INTRO
+
+It is a value choice:
+
+RECAP
+THEORY
+
+PRACTICE
+
+More false positives → more unnecessary
+surveillance
+
+RECAP
+THEORY
+
+Which error is worse? In what kind of society
+do you want to live in?
+
+More false negatives → more missed crimes
+DISCUSS
+
+2 Bias is a political question
+•
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+•
+•
+•
+•
+•
+
+AI ethics can still help us ask better questions and
+mitigate the problem
+Examples:
+What counts as success?
+What counts as harm?
+Whose values matter?
+Should this system exist at all?
+
+RECAP
+
+RECAP
+THEORY
+
+•
+
+A lot of bias is a reflection of actual social inequalities.
+A lot of bias is not avoidable; it is a question for society
+what risk sensitivity we accept
+What can you do to translate non-discrimination into
+design?
+
+INTRO
+
+•
+•
+
+INTRO
+
+2 Bias is a political question
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+AI ethics helps us ask better questions.
+Examples:
+What counts as success?
+What counts as harm?
+Whose values matter?
+Should this system exist at all?
+
+INTRO
+
+A lot of bias is a reflection of actual social inequalities.
+A lot of bias is not avoidable, it is a question for society what
+risk sensitivity we accept
+What can you do to translate non-discrimination into
+design?
+
+INTRO
+
+2 What is fair?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Famous Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Famous Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Famous Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Famous Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Famous Case Studies:
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+PRACTICE
+
+How would you design a recruitment
+algorithm?
+
+THEORY
+
+THEORY
+
+PRACTICE
+
+INTRO
+
+03
+
+INTRO
+
+DISCUSS
+
+THEORY
+
+GUIDELINES
+
+DISCUSS
+
+DISCUSSION
+
+INTRO
+
+04
+
+INTRO
+
+Looking Forward
+
+THEORY
+
+Explainability and Transparency
+
+INTRO
+
+Next Week
+
+INTRO
+
+GUIDELINES
+DISCUSS
+
+INTRO
+
+INTRO
+GUIDELINES
+
+See you next week!
+
+THEORY
+
+Thank you!
+
+DISCUSS
+
+

@@ -8,18 +8,18 @@ const gameState = {
     patientsPerDay: 5,
     totalDays: 10,
     resources: {
-        icu_beds: 15,
-        medicine: 15,
-        public_opinion: 10,
-        reputation: 10,
-        staff_morale: 10
+        icu_beds: 12,
+        medicine: 20,
+        public_opinion: 8,
+        reputation: 8,
+        staff_morale: 8
     },
     maxResources: {
-        icu_beds: 15,
-        medicine: 25,
-        public_opinion: 20,
-        reputation: 20,
-        staff_morale: 20
+        icu_beds: 18,
+        medicine: 30,
+        public_opinion: 15,
+        reputation: 15,
+        staff_morale: 15
     },
     todayPatients: [],
     todayDecisions: [],
@@ -73,20 +73,20 @@ function generateGamePlan() {
  */
 function simulateGame(plan) {
     const resources = {
-        icu_beds: 15,
-        medicine: 25,
-        public_opinion: 10,
-        reputation: 10,
-        staff_morale: 10
+        icu_beds: 12,
+        medicine: 20,
+        public_opinion: 8,
+        reputation: 8,
+        staff_morale: 8
     };
     const maxResources = {
-        icu_beds: 25,
-        medicine: 40,
-        public_opinion: 20,
-        reputation: 20,
-        staff_morale: 20
+        icu_beds: 18,
+        medicine: 30,
+        public_opinion: 15,
+        reputation: 15,
+        staff_morale: 15
     };
-    const dailyRegen = { icu_beds: 5, medicine: 5, reputation: 2, staff_morale: 2 };
+    const dailyRegen = { icu_beds: 3, medicine: 3, reputation: 1, staff_morale: 1 };
 
     for (let day = 0; day < 10; day++) {
         // Daily replenishment (not day 1)
@@ -176,11 +176,18 @@ function resetGameState() {
     gameState.autoSolveStepMode = true;
     gameState.gamePlan = null;
     gameState.resources = {
-        icu_beds: 15,
-        medicine: 25,
-        public_opinion: 10,
-        reputation: 10,
-        staff_morale: 10
+        icu_beds: 12,
+        medicine: 20,
+        public_opinion: 8,
+        reputation: 8,
+        staff_morale: 8
+    };
+    gameState.maxResources = {
+        icu_beds: 18,
+        medicine: 30,
+        public_opinion: 15,
+        reputation: 15,
+        staff_morale: 15
     };
     gameState.todayDecisions = [];
 }
@@ -199,7 +206,7 @@ function startDay() {
 
     // Daily replenishment (not day 1)
     if (gameState.currentDay > 1) {
-        const dailyRegen = { icu_beds: 5, medicine: 5, reputation: 2, staff_morale: 2 };
+        const dailyRegen = { icu_beds: 3, medicine: 3, reputation: 1, staff_morale: 1 };
         for (const [res, amount] of Object.entries(dailyRegen)) {
             gameState.resources[res] = Math.min(
                 gameState.maxResources[res],

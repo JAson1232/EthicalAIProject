@@ -1,0 +1,1548 @@
+Ethics of AI
+4. Transparency
+and Accountability
+Dr. Guido Löhr
+Assistant Professor of Logic and
+AI
+
+INTRO
+
+INTRO
+
+THEORY
+
+Recap
+
+01
+
+Introduction
+
+PRACTICE
+
+DISCUSS
+
+1 What does ‘value’ mean?
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+
+1. Values are qualities that are valuable,
+good, desirable, and worth fighting for.
+2. They guide our actions and constitute
+our identity
+4. They provide reasons for defending or
+justifying an action
+5. Not everything we value is valuable
+•A dictator might value total power,
+but that might not be valuable.
+
+DISCUSS
+
+INTRO
+
+1 Explicit Values
+
+INTRO
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+1 Implicit Values
+
+INTRO
+
+INTRO
+
+THEORY
+
+What does this person value?
+PRACTICE
+DISCUSS
+
+1 Implicit Values in Technology
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 What are good guidelines?
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 What is the role of guidelines?
+
+INTRO
+
+INTRO
+
+Layer 1 — Stakeholder values
+
+THEORY
+PRACTICE
+
+Which values matter most?
+How should we balance them?
+What trade-offs are acceptable?
+This is about justification.
+
+DISCUSS
+
+Layer 2 — Design layer (engineering)
+Turn abstract guidelines into design
+solutions
+
+1
+
+1 Normative Ethics
+Consequentialism
+“the greatest amount of good for the greatest number of people”
+
+Deontology
+“you have a duty! The consequences don’t matter”
+
+Virtue Ethics
+“Good character/act like a virtuous person would”
+
+Care Ethics
+“Good social relationships and empathy”
+
+1
+
+THEORY
+PRACTICE
+
+We do not live in a
+consequentialist world.
+
+INTRO
+
+Duty Ethics has won
+We live in a world full of duties
+and rights.
+
+INTRO
+
+DISCUSS
+
+1 What is bias?
+Statistical bias
+
+THEORY
+
+model
+
+Real world
+
+PRACTICE
+
+This need not generate a lack of fairness or
+discrimination. It’s about estimation error.
+
+RECAP
+
+RECAP
+THEORY
+
+A model is biased if its predictions are systematically
+wrong in one direction.
+Example:
+• A house price model always underestimates
+prices by €20k.
+• A model predicting crime ignores financial crime.
+•
+
+INTRO
+
+1.
+
+INTRO
+
+DISCUSS
+
+1 What is bias?
+
+THEORY
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+For example:
+• The world is relatively uniform and not sudden
+unexplained changes occur.
+• Linear regression assumes linear relationships
+• Decision trees assume binary relationships,
+• Free money-likely spam
+• Simpler explanations are better than complex
+ones (Occam’s razor)
+
+INTRO
+
+2. Inductive biases (necessary assumptions for
+induction to get off the ground)
+These are – assumptions we take for granted,
+without justification
+The assumptions a model makes to learn from
+limited data.
+Without assumptions, learning is impossible.
+
+INTRO
+
+1 Bias vs Discrimination (unfair bias)
+•
+
+•
+
+PRACTICE
+
+•
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+•
+
+Bias is not always bad and can’t be
+avoided.
+Inductive biases are necessary to get
+induction off the ground
+Statistical Bias is problematic when
+it leads to unfair discrimination.
+So, let’s distinguish or keep
+separate: bias from discrimination
+(unfair bias)
+An unbiased (in the statistical
+sense) system can discriminate and
+a biased system can fight
+discrimination.
+
+INTRO
+
+•
+
+INTRO
+
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+THEORY
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 When bias becomes discrimination
+
+INTRO
+
+Sometimes bias in a model leads to a
+systematic disadvantage or discrimination
+against groups.
+
+INTRO
+
+RECAP
+THEORY
+
+•
+•
+
+DISCUSS
+
+Higher false arrest predictions for minorities
+Face recognition is worse for darker skin
+tones
+Hiring algorithm preferring men
+Ignoring heart attack symptoms of women
+because textbook studies were based on
+men
+
+PRACTICE
+
+•
+•
+
+RECAP
+THEORY
+
+Examples:
+
+1 What is fair is not always obvious
+
+INTRO
+
+INTRO
+THEORY
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+For Today
+INTRO
+
+01
+
+Recap
+
+Theory
+
+02
+
+04
+
+What did you find?
+
+PRACTICE
+
+Turn values into
+design
+
+THEORY
+
+Discussion
+
+Group Activity
+
+03
+
+Bias and nondiscrimination
+
+INTRO
+
+Introduction
+
+DISCUSS
+
+1 The take-home messages for today
+Both are important for accountability
+
+•
+
+There are two kinds of AI in this context: Machine learning and GOFAI
+
+•
+
+Only Machine Learning is systematically and possibly hopelessly intransparent
+
+•
+
+This can create responsibility and achievement gaps
+
+•
+
+But lack of transparency can also come from human decisions
+
+•
+
+Overall, it depends on the use case whether we value explainability more than
+
+THEORY
+
+PRACTICE
+
+•
+
+THEORY
+
+Explainability and transparency are related – the latter is often needed for the former!
+
+INTRO
+
+•
+
+INTRO
+
+accuracy
+DISCUSS
+
+PRACTICE
+
+Guidelines and Ethical Theory
+
+THEORY
+
+THEORY
+
+Theory
+
+INTRO
+
+02
+
+INTRO
+
+DISCUSS
+
+2 The Loan Case Study
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+The bank responds:
+• The system is too complex to explain
+• The model is proprietary
+• The decision is statistically reliable
+
+RECAP
+
+RECAP
+THEORY
+
+Alex asks the bank:
+• Why was I rejected?
+• Which factors mattered?
+• Can I challenge the decision?
+
+INTRO
+
+Alex applies for a home loan at a large bank. The bank
+uses an AI system to assess credit risk. A day later Alex
+receives an automatic message:
+“Your loan application has been rejected based on our AI
+risk assessment.”
+
+INTRO
+
+2 The Loan Case Study
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+• Should the bank be required to explain the decision?
+
+INTRO
+
+Alex insists the decision is unfair because:
+• Alex has a stable job
+• No previous debt
+• Good income.
+
+INTRO
+
+PRACTICE
+DISCUSS
+
+2 Today: Transparency and Accountability
+
+INTRO
+
+INTRO
+RECAP
+
+PRACTICE
+
+Transparency vs Explainability
+Why is it important?
+What causes intransparency?
+What can we do about it?
+
+RECAP
+THEORY
+
+1.
+2.
+3.
+4.
+
+THEORY
+
+DISCUSS
+
+2 Today: Transparency and Accountability
+
+INTRO
+
+INTRO
+RECAP
+
+RECAP
+THEORY
+
+1. Transparency vs Explainability
+2. What causes intransparency?
+3. What can we do about it?
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+2 What is T&E? Guidelines
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is T&E?
+
+INTRO
+
+Transparency
+• Access to how the system works
+• Data, model structure, training process
+
+INTRO
+
+RECAP
+
+PRACTICE
+DISCUSS
+
+Example:
+• Open-source neural network = transparent
+• But still not explainable to a user.
+Transparency does not guarantee
+understanding.
+
+RECAP
+THEORY
+
+Explainability
+• Ability to give understandable reasons for a
+decision
+
+THEORY
+
+2 Ideally there is a relation between T and E
+
+INTRO
+
+Transparent?
+
+INTRO
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+Explainable?
+
+PRACTICE
+DISCUSS
+
+2 Value conflict Accuracy-Explainability?
+●
+
+●
+●
+
+THEORY
+
+PRACTICE
+
+●
+
+RECAP
+
+RECAP
+THEORY
+
+●
+
+Interpretable: implying some sense of understanding
+of how the technology works;
+Explainable: implying that a wider range of users can
+understand why or how a conclusion was reached
+Transparent: implying some level of accessibility to
+the data or algorithm;
+Justifiable: implying there is an understanding of the
+case in support of a particular outcome; or
+Contestable: implying users have the information they
+need to argue against a decision or classification.
+
+INTRO
+
+Terminology (Royal Society, 2019)
+
+INTRO
+
+DISCUSS
+
+2 Value conflict Accuracy-Explainability?
+
+DISCUSS
+
+•
+
+It depends on the context what we value
+more! Sometimes accuracy is more
+important than explainability.
+Can you think of examples of each?
+
+THEORY
+
+PRACTICE
+
+•
+
+RECAP
+
+RECAP
+THEORY
+
+“a trade-off must be made between
+accuracy and explainability or
+interpretability … as advanced
+systems that are more accurate in
+their predictions are becoming less
+interpretable.” (Felzmann et al.,
+2020)
+
+INTRO
+
+Highly unlikely that we develop full
+transparency, therefore we focus on
+“sufficient level of transparency”
+
+INTRO
+
+2 Today: Transparency and Accountability
+
+INTRO
+
+INTRO
+RECAP
+
+PRACTICE
+
+Transparency vs Explainability
+Why is it important?
+What causes intransparency?
+What can we do about it?
+
+RECAP
+THEORY
+
+1.
+2.
+3.
+4.
+
+THEORY
+
+DISCUSS
+
+2
+
+AI Ethics
+
+INTRO
+
+INTRO
+
+AI
+RECAP
+THEORY
+
+Rob
+otic
+s
+
+GUIDELINES
+
+LLMs
+
+GOFA
+I
+
+RECAP
+THEORY
+
+ML
+
+AI
+
+DISCUSS
+
+2 Who is to be blamed?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 The main differences for us
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+PRACTICE
+DISCUSS
+
+Deep Learning (connectionism)
+Ehically Bad:
+• Based on self-learning to some degree
+• Output is not logical consequence of input
+• And we can’t easily change the output by changing
+the system, we need to re-train!
+Practically Good:
+• Much more flexible than GOFAI! Less work to
+program all possible eventualities
+• Often result is creative and a novel solution
+
+RECAP
+THEORY
+
+GOFAI (symbolic AI)
+Ethically Good:
+• Based on pre-programmed rules.
+• Output is a logical consequence of input and
+program.
+• Completely predictable!
+• We can always change the result by changing
+the algorithm/rules
+Practically Bad
+• Not flexible, lots of work to program for all
+eventualities
+
+2 Achievement Gaps
+•
+
+THEORY
+
+PRACTICE
+
+•
+
+RECAP
+
+RECAP
+THEORY
+
+•
+
+Who deserves praise (Nyholm, 2023)?
+AI makes important groundbreaking
+finding but humans get the Nobel?
+AI generates a lot of money for a
+company. Who deserves the praise?
+AI writes a great essay or paper. Who
+should get the praise?
+The human writer (who acted as prompt
+engineer) or the AI?
+
+INTRO
+
+•
+•
+
+INTRO
+
+DISCUSS
+
+2 Regulations: The GDPR
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+EU GDPR
+Possible right to explanation of automated
+decisions.
+• EU AI Act
+Transparency requirements for high-risk
+systems.
+• Requirements may include:
+• Documentation
+• Auditability
+• Human oversight
+• Policy goal:
+Make AI systems contestable.
+
+INTRO
+
+2 Higher and lower stakes
+
+INTRO
+
+Lower Stakes
+movie recommendations
+music playlists
+Planning daily tasks…
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+High-stakes decisions
+• loans
+• hiring
+• medical diagnosis
+• criminal justice
+Why:
+• Individuals must understand and
+challenge decisions
+• detecting bias requires insight into the
+system
+• Accountability is required
+• Someone must justify the outcome
+
+INTRO
+
+INTRO
+
+INTRO
+
+THEORY
+
+BREAK
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+2 Today: Transparency and Accountability
+
+INTRO
+
+INTRO
+RECAP
+
+PRACTICE
+
+Transparency vs Explainability
+Why is it important?
+What causes intransparency?
+What can we do about it?
+
+RECAP
+THEORY
+
+1.
+2.
+3.
+4.
+
+THEORY
+
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Induction versus deduction versus abduction
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is bias?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+is AI? The most important distinction for
+2 What
+us
+
+INTRO
+
+INTRO
+
+Machine Learning
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+GOFAI/Symbolic AI
+
+PRACTICE
+DISCUSS
+
+2 GOFAI
+
+INTRO
+
+INTRO
+
+•Does not learn. It is fully programmed.
+
+THEORY
+
+PRACTICE
+
+•Output is a logical conclusion of the input
+and the program
+
+RECAP
+
+RECAP
+THEORY
+
+•GOFAI: Good Old Fashioned AI, also
+“Symbolic AI”
+
+DISCUSS
+
+2 GOFAI
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+Instruction/program:
+IF HOOVES(x) AND TAIL (x) THEN
+print “[NAME] is a horse”
+Otherwise, print “[NAME] is not a
+horse”.
+Input: “Hans”
+Searches database for features of
+Hans.
+Finds: Hans={HOOVESx and TAILx}
+Output: “Hans is a horse”
+
+DISCUSS
+
+2 Machine Learning
+
+INTRO
+
+INTRO
+
+•
+
+THEORY
+
+PRACTICE
+
+•
+
+RECAP
+
+RECAP
+THEORY
+
+•
+
+Machine Learning – Deep Learning –
+Connectionism – Artificial Neural
+Networks
+Self-learning, based on
+statistics/probability
+Output is not a logical consequence of
+program/input
+
+DISCUSS
+
+2 Machine Learning
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+Based on lots of training and data
+unsupervised/supervised learning
+
+PRACTICE
+DISCUSS
+
+2 The main differences for us
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+PRACTICE
+DISCUSS
+
+Deep Learning (connectionism)
+Ehically Bad:
+• Based on self-learning to some degree
+• Output is not logical consequence of input
+• And we can’t easily change the output by changing
+the system, we need to re-train!
+Practically Good:
+• Much more flexible than GOFAI! Less work to
+program all possible eventualities
+• Often result is creative and a novel solution
+
+RECAP
+THEORY
+
+GOFAI (symbolic AI)
+Ethically Good:
+• Based on pre-programmed rules.
+• Output is a logical consequence of input and
+program.
+• Completely predictable!
+• We can always change the result by changing
+the algorithm/rules
+Practically Bad
+• Not flexible, lots of work to program for all
+eventualities
+
+own induction machine is intransparent
+2 Your
+So then, why do we have higher standards of
+
+INTRO
+
+explainability for AI?
+
+INTRO
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Today: Transparency and Accountability
+
+INTRO
+
+INTRO
+RECAP
+
+PRACTICE
+
+Transparency vs Explainability
+Why is it important?
+What causes intransparency?
+What can we do about it?
+
+RECAP
+THEORY
+
+1.
+2.
+3.
+4.
+
+THEORY
+
+DISCUSS
+
+INTRO
+
+2 The VSD Approach
+
+INTRO
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+2 The VSD process for Ethical AI
+
+INTRO
+
+INTRO
+
+Identify the stakeholders
+
+2.
+
+Identify their values and goals/the goal of the application
+
+3.
+
+Specify the value concepts, as we see, there are different notions of privacy and bias
+
+4.
+
+Turn these values into SMART guidelines (some guidelines are better than others)
+
+THEORY
+
+1.
+
+In the case of AI there are many guidelines, but how useful are they for your project? The
+
+actionable, do they help you turn them into design?
+5.
+
+PRACTICE
+
+standard is this: Are they grounded in the stakeholder values and goals? Are they
+
+Turn the guidelines design and test!
+DISCUSS
+
+2 Transparency at every stage
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Types of explanations
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+Feature analysis: Which variables
+mattered most
+Counterfactual explanations
+What would need to change to get a
+different result
+Example-based explanations
+Similar cases, outcomes
+Model visualizations
+Attention maps, saliency maps
+
+DISCUSS
+
+the data:
+2 Obtaining
+Garbage in Garbage out
+
+INTRO
+
+INTRO
+
+•
+
+THEORY
+
+PRACTICE
+
+•
+
+RECAP
+
+RECAP
+THEORY
+
+•
+•
+•
+
+Document where the data comes
+from
+Record who collected it and why
+Describe the population represented
+Which categories did you use and
+why?
+Publish dataset documentation
+(datasheets)
+
+DISCUSS
+
+2 Modelling the Data
+
+INTRO
+
+INTRO
+
+•
+
+THEORY
+
+PRACTICE
+
+•
+•
+•
+
+RECAP
+
+RECAP
+THEORY
+
+•
+
+Prefer interpretable models, GOFAI when
+possible
+Analyse which factors matter most for a
+prediction or decision
+Test and document
+Answer:
+Why did the system make this decision?
+When does it fail?
+Should we trust it?
+
+DISCUSS
+
+2 Conclusion
+Both are important for accountability
+
+•
+
+There are two kinds of AI in this context: Machine learning and GOFAI
+
+•
+
+Only Machine Learning is systematically and possibly hopelessly intransparent
+
+•
+
+This can create responsibility and achievement gaps
+
+•
+
+But lack of transparency can also come from human decisions
+
+•
+
+Overall, it depends on the use case whether we value explainability more than
+
+THEORY
+
+PRACTICE
+
+•
+
+THEORY
+
+Explainability and transparency are related – the latter is often needed for the former!
+
+INTRO
+
+•
+
+INTRO
+
+accuracy
+DISCUSS
+
+PRACTICE
+
+How would you design a recruitment
+algorithm?
+
+THEORY
+
+THEORY
+
+PRACTICE
+
+INTRO
+
+03
+
+INTRO
+
+DISCUSS
+
+THEORY
+
+GUIDELINES
+
+DISCUSS
+
+DISCUSSION
+
+INTRO
+
+04
+
+INTRO
+
+2 The Loan Case Study
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+How would you put the value of transparency,
+explainability and accountability into design without
+sacrificing accuracy and the threat that people “game
+the system”?
+
+INTRO
+
+Alex applies for a home loan at a large bank. The bank
+uses an AI system to assess credit risk. A day later Alex
+receives an automatic message:
+“Your loan application has been rejected based on
+our AI risk assessment.”
+
+INTRO
+
+DISCUSS
+
+Looking Forward
+
+THEORY
+
+Privacy and Power
+
+INTRO
+
+Next Week
+
+INTRO
+
+GUIDELINES
+DISCUSS
+
+INTRO
+
+INTRO
+GUIDELINES
+
+See you next week!
+
+THEORY
+
+Thank you!
+
+DISCUSS
+
+

@@ -1,0 +1,1695 @@
+Ethical AI
+5. Privacy and
+Surveillance
+Dr. Guido Löhr
+Assistant Professor of Logic and
+AI
+
+INTRO
+
+INTRO
+
+THEORY
+
+Recap
+
+01
+
+Introduction
+
+PRACTICE
+
+DISCUSS
+
+1 What does ‘value’ mean?
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+
+1. Values are qualities that are valuable,
+good, desirable, and worth fighting for.
+2. They guide our actions and constitute
+our identity
+4. They provide reasons for defending or
+justifying an action
+5. Not everything we value is valuable
+•A dictator might value total power,
+but that might not be valuable.
+
+DISCUSS
+
+1 Intrinsic versus Extrinsic Values
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 Intrinsic versus Extrinsic Values
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 Intrinsic versus Extrinsic Values
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+INTRO
+
+1 Explicit Values
+
+INTRO
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+1 Implicit Values
+
+INTRO
+
+INTRO
+
+THEORY
+
+What does this person value?
+PRACTICE
+DISCUSS
+
+1 Implicit Values in Technology
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 What are good guidelines?
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+DISCUSS
+
+1 What is the role of guidelines?
+
+INTRO
+
+INTRO
+
+Layer 1 — Stakeholder values
+
+THEORY
+PRACTICE
+
+Which values matter most?
+How should we balance them?
+What trade-offs are acceptable?
+This is about justification.
+
+DISCUSS
+
+Layer 2 — Design layer (engineering)
+Turn abstract guidelines into design
+solutions
+
+1
+
+1 Normative Ethics
+Consequentialism
+“the greatest amount of good for the greatest number of people”
+
+Deontology
+“you have a duty! The consequences don’t matter”
+
+Virtue Ethics
+“Good character/act like a virtuous person would”
+
+Care Ethics
+“Good social relationships and empathy”
+
+1
+
+THEORY
+PRACTICE
+
+We do not live in a
+consequentialist world.
+
+INTRO
+
+Duty Ethics has won
+We live in a world full of duties
+and rights.
+
+INTRO
+
+DISCUSS
+
+1 What is bias?
+Statistical bias
+
+THEORY
+
+model
+
+Real world
+
+PRACTICE
+
+This need not generate a lack of fairness or
+discrimination. It’s about estimation error.
+
+RECAP
+
+RECAP
+THEORY
+
+A model is biased if its predictions are systematically
+wrong in one direction.
+Example:
+• A house price model always underestimates
+prices by €20k.
+• A model predicting crime ignores financial crime.
+•
+
+INTRO
+
+1.
+
+INTRO
+
+DISCUSS
+
+1 What is bias?
+
+THEORY
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+For example:
+• The world is relatively uniform and not sudden
+unexplained changes occur.
+• Linear regression assumes linear relationships
+• Decision trees assume binary relationships,
+• Free money-likely spam
+• Simpler explanations are better than complex
+ones (Occam’s razor)
+
+INTRO
+
+2. Inductive biases (necessary assumptions for
+induction to get off the ground)
+These are – assumptions we take for granted,
+without justification
+The assumptions a model makes to learn from
+limited data.
+Without assumptions, learning is impossible.
+
+INTRO
+
+1 When bias becomes discrimination
+
+INTRO
+
+Sometimes bias in a model leads to a
+systematic disadvantage or discrimination
+against groups.
+
+INTRO
+
+RECAP
+THEORY
+
+•
+•
+
+DISCUSS
+
+Higher false arrest predictions for minorities
+Face recognition is worse for darker skin
+tones
+Hiring algorithm preferring men
+Ignoring heart attack symptoms of women
+because textbook studies were based on
+men
+
+PRACTICE
+
+•
+•
+
+RECAP
+THEORY
+
+Examples:
+
+1 What is fair is not always obvious
+
+INTRO
+
+INTRO
+THEORY
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+1 The main differences for us
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+PRACTICE
+DISCUSS
+
+Deep Learning (connectionism)
+Ehically Bad:
+• Based on self-learning to some degree
+• Output is not logical consequence of input
+• And we can’t easily change the output by changing
+the system, we need to re-train!
+Practically Good:
+• Much more flexible than GOFAI! Less work to
+program all possible eventualities
+• Often result is creative and a novel solution
+
+RECAP
+THEORY
+
+GOFAI (symbolic AI)
+Ethically Good:
+• Based on pre-programmed rules.
+• Output is a logical consequence of input and
+program.
+• Completely predictable!
+• We can always change the result by changing
+the algorithm/rules
+Practically Bad
+• Not flexible, lots of work to program for all
+eventualities
+
+own induction machine is intransparent
+1 Your
+So then, why do we have higher standards of
+
+INTRO
+
+explainability for AI?
+
+INTRO
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+For Today
+INTRO
+
+01
+
+Recap
+
+Theory
+
+02
+
+04
+
+What did you find?
+
+PRACTICE
+
+Turn values into
+design
+
+THEORY
+
+Discussion
+
+Group Activity
+
+03
+
+Privacy and
+Surveillance
+
+INTRO
+
+Introduction
+
+DISCUSS
+
+1 The take-home messages for today
+There are different notions of privacy,
+
+and each is relevant for different use
+
+•
+
+So, to say in our guidelines that we
+
+THEORY
+
+THEORY
+
+cases.
+
+INTRO
+
+•
+
+INTRO
+
+want privacy is meaningless. At least it
+
+•
+
+Whether a technology respects your
+
+PRACTICE
+
+requires a lot of spelling out.
+
+privacy or norms of privacy depends
+DISCUSS
+
+on the context of application
+
+PRACTICE
+
+Privacy and Surveillance
+
+THEORY
+
+THEORY
+
+Theory
+
+INTRO
+
+02
+
+INTRO
+
+DISCUSS
+
+2 Imagine
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+Your alarm rings.
+You wake up, you unlock your phone with with your face.
+You check your social media. You google weather and train
+connection.
+You check the political news. You Google whether they
+released the new Macbook.
+You leave the house. Hidden cameras everywhere. More
+than 228,000 security cameras are registered in the
+Netherlands.
+They know where you are, what you do, what you like, what
+your plans are, your health and other private information like
+who you meet and date…
+So? What’s the problem?
+
+INTRO
+
+DISCUSS
+
+INTRO
+
+RECAP
+THEORY
+
+Is this bad?
+
+INTRO
+
+2
+
+RECAP
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+2 Is Privacy over? Privacy versus Transparency?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+Is privacy
+opposed to an
+open
+transparent
+society?
+
+DISCUSS
+
+2 Is Privacy over? Privacy versus Transparency?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Today: Privacy and Surveillance
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+1. Why is privacy important?
+2. What is privacy exactly?
+3. What can we do?
+
+PRACTICE
+DISCUSS
+
+2 Reversal – Why not start with what is privacy?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+
+1. Let’s first understand why we
+would like something like
+privacy before trying to
+define it!
+2. Function First – Definition
+second
+
+DISCUSS
+
+2 Today: Privacy and Surveillance
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+1. Why is privacy important?
+2. What is privacy exactly?
+3. What can we do?
+
+PRACTICE
+DISCUSS
+
+2 Privacy in the news
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What happened?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Privacy as a common AI Ethics Norm
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 What is Privacy good for?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 This movie is almost 30 years old!
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+care about privacy? Control and
+2 Why
+Reputation!
+
+INTRO
+
+INTRO
+
+It’s a right that gives us a power/ Control
+over
+
+RECAP
+THEORY
+
+PRACTICE
+
+Related to Transparency: It should be
+transparent what powerful actors know
+about us.
+
+RECAP
+THEORY
+
+Information/Power/autonomy/property
+rights/freedom of thought and speech
+
+DISCUSS
+
+2
+
+Privacy protects our dignity and
+social relationships
+
+can decide what to do and what to
+• If you don’t have any privacy, then
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+think, what rules to follow
+
+INTRO
+
+• Autonomy of action and thought – you
+
+INTRO
+
+other people can always judge you for
+
+your actions and thoughts, and you are
+• Imagine being online anonymously
+
+PRACTICE
+
+less free to do what you like.
+
+versus everyone watching
+DISCUSS
+
+• This will change your behavior
+
+2 Privacy protects Autonomy
+Autonomy of action and thought – you can
+
+INTRO
+
+•
+
+INTRO
+
+decide what to do and what to think, what rules
+to follow
+If you don’t have any privacy, then other people
+
+can always judge you for your actions and
+
+THEORY
+
+RECAP
+THEORY
+
+•
+
+RECAP
+
+thoughts and you are less free to do what you
+•
+
+Imagine being online anonymously versus
+
+PRACTICE
+
+like.
+everyone watching
+This will change your behavior
+
+DISCUSS
+
+•
+
+2
+
+The most effective power is not repression —
+it is making people monitor themselves.
+
+Continuous observation
+
+•
+
+Measurement & data collection
+
+•
+
+Normalization (“what counts as normal?”)
+
+•
+
+Correction & ranking
+Schools (grades, attendance)
+
+•
+
+Hospitals (records, diagnoses)
+
+•
+
+Workplaces (performance metrics)
+
+•
+
+Smart cities (cameras, tracking, scoring)
+
+DISCUSS
+
+•
+
+THEORY
+
+PRACTICE
+
+Examples:
+
+RECAP
+
+RECAP
+THEORY
+
+•
+
+INTRO
+
+What Is Discipline?
+
+INTRO
+
+2
+
+The most effective power is not repression —
+it is making people monitor themselves.
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Privacy and Power
+●
+
+●
+●
+
+●
+
+THEORY
+
+PRACTICE
+
+●
+
+RECAP
+
+RECAP
+THEORY
+
+●
+
+Example: Cambridge Analytica
+“This is your digital life” app
+Built a psychological profile of users
+Harvested up to 87 million profiles
+Data used to assist the campaigns of Donald
+Trump and Ted Cruz
+Also accused of being used during Brexit
+debates
+2017 Kenyan elections
+
+INTRO
+
+●
+
+INTRO
+
+DISCUSS
+
+2 Privacy and Transparency
+
+THEORY
+
+PRACTICE
+
+“Most troubling, they [AI models] reinforce discrimination: If a
+poor student can't get a loan because a lending model deems
+him too risky (by virtue of his zip code), he's then cut off from
+the kind of education that could pull him out of poverty, and a
+vicious spiral ensues. Models are propping up the lucky and
+punishing the downtrodden, creating a "toxic cocktail for
+democracy."
+
+RECAP
+
+RECAP
+THEORY
+
+The AI models being used today are:
+○ Opaque
+○ Unregulated
+○ Uncontestable (even when they’re wrong)
+
+INTRO
+
+●
+
+INTRO
+
+DISCUSS
+
+2 Privacy as instrinsic value?
+2.It is a core part of what it means to be a person.
+
+INTRO
+
+1.Can we argue that privacy is good in itself?
+
+INTRO
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+3.To respect another person’s privacy is good in itself, no need to further
+
+justify.
+PRACTICE
+
+4.Even if no harm results, a privacy violation feels wrong.
+5.Example: Someone secretly watching you sleep—creepy even if you never
+
+DISCUSS
+
+find out
+
+INTRO
+
+INTRO
+
+THEORY
+
+BREAK
+
+THEORY
+
+PRACTICE
+
+DISCUSS
+
+2 Today: Privacy and Surveillance
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+1. Why is privacy important?
+2. What is privacy exactly?
+3. What can we do?
+
+PRACTICE
+DISCUSS
+
+2 The VSD Approach
+
+INTRO
+
+INTRO
+
+THEORY
+PRACTICE
+
+Now that we know what
+privacy is good for, we
+can more easily design
+apps that are more
+private!
+
+DISCUSS
+
+2 The VSD process for Ethical AI
+2.
+
+Identify their values and goals/the goal of the application
+
+3.
+
+Specify the value concepts, as we see, there are different notions of privacy and bias
+
+4.
+
+Turn these values into SMART guidelines (some guidelines are better than others)
+
+THEORY
+
+THEORY
+THEORY
+
+Identify the stakeholders
+
+INTRO
+
+1.
+
+INTRO
+
+In the case of AI there are many guidelines, but how useful are they for your project? The
+
+actionable, do they help you turn them into design?
+5.
+
+PRACTICE
+
+standard is this: Are they grounded in the stakeholder values and goals? Are they
+
+Turn the guidelines design and test!
+DISCUSS
+
+2 Two kinds of notions of privacy
+
+INTRO
+
+In English, we need to distinguish (at least) two relevant issues that fall under
+
+INTRO
+
+privacy (e.g. Allen 2005, DeCew 2018):
+RECAP
+
+normally is) free from the interference of others (in particular the public).
+ML
+Informational privacy: concerns the realm of data and information about people that
+
+In the context of this lecture we are only concerned only with informational
+
+GUIDELINES
+
+should be (or normally is) not subject toLLMs
+scrutiny by others (in particular the public).
+
+THEORY
+
+RECAP
+THEORY
+
+Decisional privacy: concerns the realm of personal decisions that should be (or
+
+privacy (henceforth just privacy).
+DISCUSS
+
+2 Why Privacy matters (recap)
+
+INTRO
+
+INTRO
+
+Control over information
+
+RECAP
+THEORY
+
+ML
+
+✓ Protect and increase reputation management
+✓ Transparency
+
+LLMs
+
+GUIDELINES
+
+✓ Safety
+
+RECAP
+THEORY
+
+✓ Autonomy and power
+
+✓ Dignity
+DISCUSS
+
+2 Why this is great for our design projects
+
+INTRO
+
+INTRO
+
+• So to increase privacy, I now know what to do: Make sure that
+ML
+
+• What might be problematic about that in the case of AI?
+
+GUIDELINES
+
+LLMs
+
+THEORY
+
+RECAP
+THEORY
+
+I give control over people’s information?
+
+RECAP
+
+DISCUSS
+
+2 Privacy as control (Alan Westin)
+You can decide who can access your information by giving consent.
+For example, when Instagram asks you for your consent to use your
+
+•
+
+Especially with big data: We don’t know what it can be used for or what it will be
+
+LLMs
+
+used for.
+can still squeeze out information about you.
+
+DISCUSS
+
+Sometimes your information is hidden anonymously in a big dataset, but people
+
+GUIDELINES
+
+It is hard to know what you consent to.
+
+RECAP
+THEORY
+
+ML
+
+•
+
+•
+
+RECAP
+THEORY
+
+information/cookies
+The main problems for AI:
+
+INTRO
+
+Privacy rights give you the power to control who has access to your information
+
+INTRO
+
+2 What counts as consent?
+Does signing a complicated long Terms of
+Conditions count as consent?
+How could we determine what counts as consent?
+
+•
+
+First, we need to make sure the user understands
+ML
+
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+•
+
+INTRO
+
+•
+
+INTRO
+
+what she is “consenting” to.
+LLMs
+The transparency paradox: Is consentful
+agreement
+impossible?
+
+•
+
+GUIDELINES
+
+•
+
+Remember the key features of machine learning?
+DISCUSS
+
+2 The main differences for us
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+GOFAI (symbolic AI)
+Ethically Good:
+• Based on pre-programmed rules.
+• Output is a logical consequence of input and
+program.
+• Completely predictable!
+• We can always change the result by changing
+the algorithm/rules
+Practically Bad
+• Not flexible, lots of work to program for all
+eventualities
+
+2 The main differences for us
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+PRACTICE
+DISCUSS
+
+Deep Learning (connectionism)
+Ehically Bad:
+• Based on self-learning to some degree
+• Output is not logical consequence of input
+• And we can’t easily change the output by changing
+the system, we need to re-train!
+Practically Good:
+• Much more flexible than GOFAI! Less work to
+program all possible eventualities
+• Often result is creative and a novel solution
+
+RECAP
+THEORY
+
+GOFAI (symbolic AI)
+Ethically Good:
+• Based on pre-programmed rules.
+• Output is a logical consequence of input and
+program.
+• Completely predictable!
+• We can always change the result by changing
+the algorithm/rules
+Practically Bad
+• Not flexible, lots of work to program for all
+eventualities
+
+as appropriate information flow
+2 Privacy
+“contextual integrity” (Helen Nissenbaum)
+
+INTRO
+
+INTRO
+
+•
+
+THEORY
+
+PRACTICE
+
+•
+
+RECAP
+
+RECAP
+THEORY
+
+•
+
+According to Helen Nissenbaum, privacy norms
+are complex and always changing. They cannot
+be summed up simply by saying privacy is the
+control over your private information
+We need to establish norms together that clearly
+determine what kind of information can be
+shared in which context
+She argues that big data currently disrupted
+these flows of information and we need new
+norms to regulate them
+
+DISCUSS
+
+as appropriate information flow
+2 Privacy
+“contextual integrity” (Helen Nissenbaum)
+
+•
+
+THEORY
+
+PRACTICE
+
+•
+
+RECAP
+
+RECAP
+THEORY
+
+•
+
+DISCUSS
+
+Each context (healthcare, social media, work, tax) has different norms about
+who can access what information and for what purpose.
+In the case of the tax authorities, they don’t give you a choice over what
+information you will share
+Privacy violations occur when these norms are broken, even if information is
+technically public. This accounts for modern digital data practices better than
+older “secrecy” models
+Problems: Sounds a bit conservative, does not tell us what is then
+appropriate. What counts as context? Who decides what is appropriate? How
+can we make sure information from one context (medical records) does not
+leak into other contexts (healthy insurance/work)?
+
+INTRO
+
+•
+
+INTRO
+
+2 Today: Privacy and Surveillance
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+1. Why is privacy important?
+2. What is privacy exactly?
+3. What can we do?
+
+PRACTICE
+DISCUSS
+
+2 Your job: Balance Value Conflicts
+
+INTRO
+
+Privacy versus safety/security – it can be safer with
+less privacy
+
+INTRO
+
+Example: Surveillance cameras, mass data
+collection, contact tracing apps
+
+THEORY
+
+Privacy versus innovation – sometimes privacy laws
+makes it harder to innovate
+
+DISCUSS
+
+Example: Sharing patient data for medical AI vs.
+protecting patient confidentiality.
+
+PRACTICE
+
+Example: Public officials’ financial disclosures vs.
+their private property.
+
+THEORY
+THEORY
+
+Privacy versus accountability/transparency – privacy
+norms can protect criminals
+
+2 Can Ethics help?
+•
+
+One way to think about ethics is as ways to solve value
+
+•
+
+Deontology (Kant): Privacy norms are essential and
+
+Consequentialism: Whatever produces the best
+
+THEORY
+
+THEORY
+THEORY
+
+cannot be broken or weakened for other values
+•
+
+INTRO
+
+conflicts.
+
+INTRO
+
+outcomes!
+
+As we said last time, Deontology has won, and you
+cannot be consequentialist today!
+
+•
+
+You need to somehow respect privacy laws and also
+
+BUT HOW???
+
+DISCUSS
+
+be innovative and respectful!
+
+•
+
+PRACTICE
+
+•
+
+2
+
+Ok but deontology won! Remember?
+INTRO
+
+INTRO
+THEORY
+
+THEORY
+THEORY
+PRACTICE
+DISCUSS
+
+2 Regulations: The GDPR
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Regulations: The GDPR
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Know your rights
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 You are the product!?
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Privacy at every stage
+
+THEORY
+
+PRACTICE
+DISCUSS
+
+3. Understand the stakeholders
+• Who’s affected? Users, third parties,
+regulators, society
+• What are their expectations or norms
+(contextual integrity)?
+
+RECAP
+
+RECAP
+THEORY
+
+2. Determine the type of privacy at stake
+• Informational (data, logs)
+• Physical (access to devices, location)
+• Decisional or behavioral (control over
+choices)
+
+INTRO
+
+INTRO
+
+1. Identify the value of privacy in context
+• Why is privacy important for this system?
+• Example: Protecting autonomy, intimacy, or
+preventing surveillance.
+
+2 Privacy at every stage
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Privacy is tricky in ML!
+
+INTRO
+
+INTRO
+
+Privacy:
+RECAP
+
+This is the proxy problem again!
+
+PRACTICE
+
+It is easy to locate you by associating correlated
+features with a single individual
+
+THEORY
+
+RECAP
+THEORY
+
+Eliminating the name or IP number alone makes a
+data science tool anonymous
+
+DISCUSS
+
+2 Obtaining the data:
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+Informed consent: Clear explanation of what, why,
+and how data is collected
+Purpose limitation: Collect only what is necessary
+Data minimization: Avoid “just in case” data
+collection
+Right to withdraw consent: Users can opt-out or
+delete data
+Differential privacy at collection: Obscure
+individual contributions with noise
+Local/edge storage: Keep sensitive data on users’
+devices
+Anonymization / pseudonymization: Remove or
+mask identifiers immediately
+
+INTRO
+
+2 Modelling the Data
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+
+Differential Privacy
+• Add noise during training to protect individuals.
+Zero Knowledge Proofs
+• Reduce knowledge needed for a mode to work well
+
+INTRO
+
+PRACTICE
+DISCUSS
+
+2 Zero Knowledge proofs
+
+INTRO
+
+INTRO
+RECAP
+THEORY
+
+RECAP
+THEORY
+PRACTICE
+DISCUSS
+
+2 Conclusion
+
+INTRO
+THEORY
+
+THEORY
+
+PRACTICE
+
+• Privacy is important for values like autonomy, human dignity, and safety,
+but it might also be an intrinsic value.
+• At the same time, it is a bit difficult to apply privacy as control over your
+information.
+• ML/big data don’t offer control; the outcome is often uncertain
+• Nussbaum suggests rethinking privacy is as an appropriate information
+flow
+• Tools to measure and improve privacy exist, but there will always be
+compromises
+
+INTRO
+
+DISCUSS
+
+INTRO
+THEORY
+
+PRACTICE
+
+THEORY
+
+03
+
+INTRO
+
+PRACTICE
+
+DISCUSS
+
+How to make an app more private?
+
+PRACTICE
+
+What are the main ways big
+data is used in the
+Netherlands?
+Do you agree with this use?
+
+THEORY
+
+THEORY
+
+PRACTICE
+
+INTRO
+
+03
+
+INTRO
+
+DISCUSS
+
+THEORY
+
+GUIDELINES
+
+DISCUSS
+
+DISCUSSION
+
+INTRO
+
+04
+
+INTRO
+
+Looking Forward
+
+THEORY
+
+Can AI think?
+
+INTRO
+
+Next Week
+
+INTRO
+
+GUIDELINES
+DISCUSS
+
+INTRO
+
+INTRO
+GUIDELINES
+
+See you next week!
+
+THEORY
+
+Thank you!
+
+DISCUSS
+
+

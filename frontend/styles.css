@@ -27,9 +27,9 @@ body {
     color: var(--text);
     min-height: 100vh;
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: center;
-    padding: 24px 16px;
+    padding: 0;
 }
 
 .hidden { display: none !important; }
@@ -41,13 +41,48 @@ body {
     margin: 0 auto;
 }
 
+#startScreen {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px 16px;
+}
+
+#startScreen .container {
+    background: transparent;
+    border: none;
+    padding: 32px;
+    max-width: 600px;
+}
+
 /* ─── Card (shared surface) ──────────────────────────────── */
-.container,
+.container {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 32px;
+}
+
 #gameScreen {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 32px;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+#daySummaryScreen,
+#gameScreen,
+#winScreen,
+#loseScreen {
+    padding: 24px 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -789,7 +824,13 @@ body {
    RESPONSIVE
    ═══════════════════════════════════════════════════════════ */
 @media (max-width: 600px) {
-    body { padding: 12px; }
+    #startScreen {
+        padding: 12px;
+    }
+
+    #startScreen .container {
+        padding: 24px 16px;
+    }
 
     .container, #gameScreen { padding: 20px 16px; }
 
